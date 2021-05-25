@@ -1,0 +1,17 @@
+schema: "1.0.0"
+id: anatomo
+version: "1.0.0"
+
+
+dependency :
+  - name: dev
+    days: 5
+    start: 01/01/2019
+    end: 01/01/2022
+    groups: ['SAD', 'HONORARIO MEDICO CIRURGICO']
+    # install:
+    #    - name: api
+    #      group: test
+    #      properties:
+    #          name: app
+    #          url: appUrl
